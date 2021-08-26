@@ -11,7 +11,7 @@
      #   self.age = age
 
    # def output (self):
-        print("Hello there" + self.name + "this is a message to you" + self.message + "this is your age" + self.age )
+     #   print("Hello there" + self.name + "this is a message to you" + self.message + "this is your age" + self.age )
 
 # p1 = MyClass1("Will","Welcome to Pyhton" , "19")
 # p1.age = "30"
@@ -24,12 +24,15 @@ class A:
     def function2(self):
         print("My second function")
 
-class B(A):
+class B:
     def function3(self):
         print("My third function")
 
     def function4(self):
          print("My fourth function")
+class C(A,B):
+    def function5(self):
+        print("My fifth function")
 
 R1 = A()
 
@@ -38,4 +41,10 @@ R1.function2()
 
 R2 = B()
 
-R2.
+R2.function1()
+R2.function2()
+
+R3 = C()
+
+R3.function4()
+R3.function5()
