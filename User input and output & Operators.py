@@ -1,4 +1,9 @@
 #user output and input
+j = 5 # int
+a = 1.15 # float
+jarvis_hello="Hello jarvis " # string
+char = 'p' # char
+
 
 Jarvs_name = input("Enter a name:") # input from user
 
