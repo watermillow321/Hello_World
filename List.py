@@ -33,3 +33,32 @@ print(mylist)
 
 mylist.clear() # clears all elements in a list
 print(mylist)
+
+# loops
+
+util_list = ["List","Testing","This","is","a","test"]
+for L in range(len(util_list)): # range and len is used to iterate the list
+    print(util_list[L])
+
+number_list = [1,2,3,4,5]
+I = 0
+while I < len(number_list): # while loop using list
+    print(number_list[I])
+    I = I + 1
+
+[print(x) for x in number_list] # for loops print everything in a list
+
+# list comprehension
+
+names = ["Millow" ,"Lowell", "Aldrin", 'Gela','Jake','Miko','Marl','Rica','Toni'] # original list
+newlist = [] # list where the sorted will be stored
+
+for x in names:
+    if "i" in x:
+        newlist.append(x)
+
+print(newlist)
+
+newlist = [x for x in names if "o" in x]
+
+print(newlist)
