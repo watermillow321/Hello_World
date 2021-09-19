@@ -62,3 +62,7 @@ print(newlist)
 newlist = [x for x in names if "o" in x]
 
 print(newlist)
+
+lewlist = [x for x in names if x != "Millow"] # removes an element in a list but leaves the original list unchanged
+
+print(lewlist)
