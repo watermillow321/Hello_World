@@ -136,7 +136,7 @@ for x in List_Numbers:
 
 print(List_Numbers)
 
-# Add all numbers to the last appendix of names
+# Add all numbers to the last index of names
 
 List_Numbers.extend(List_Names)
 
