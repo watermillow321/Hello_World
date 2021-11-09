@@ -109,3 +109,38 @@ print(fruit)
 
 fruit.reverse() # prints out the elements in reverse regradless of the arrangements
 print(fruit)
+
+print(1//2 *3)
+
+print(1/2+3//3+4**2)
+
+NewNumber1 = NewNumber.copy() # ccpies the list
+
+NewNumber2 = list(NewNumber1) # copies the list using list constructor
+
+print(NewNumber1)
+print(NewNumber2)
+
+List_Names = [ 'Millow','WaterMillow','WinterMillow',]
+List_Numbers = [ 69,68,69.9]
+
+#This is how you join two list into 1
+
+List_Combined = List_Names + List_Numbers
+print(List_Combined)
+
+# Joining list using the For loops
+
+for x in List_Numbers:
+    List_Names.append(x)
+
+print(List_Numbers)
+
+# Add all numbers to the last appendix of names
+
+List_Numbers.extend(List_Names)
+
+print(List_Numbers)
+
+
+
